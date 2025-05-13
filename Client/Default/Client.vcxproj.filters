@@ -1,0 +1,740 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{e082918c-7608-4b61-a259-b7d0bde29fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level">
+      <UniqueIdentifier>{ccd69ac7-3011-450b-9fbe-e0a0abafb033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading">
+      <UniqueIdentifier>{f4a6348f-ce4b-42a0-b988-f31253c06627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\01.Logo">
+      <UniqueIdentifier>{2d052521-6517-45a3-80d6-5e40b91179ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.GamePlay">
+      <UniqueIdentifier>{4610ea0e-ebf7-4b2f-98d4-0cd37e3f1657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading\Loader">
+      <UniqueIdentifier>{304efe14-efd3-4d8d-beef-d72cf2ca3c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Default">
+      <UniqueIdentifier>{faced698-6553-4ebb-933c-a9d07f43f5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{3d9e41f6-a1e4-42dd-9610-adce6a4ecb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui">
+      <UniqueIdentifier>{c99f23e9-f1b3-4def-be5e-aa4c0e2c30b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Headers">
+      <UniqueIdentifier>{f0cfdf2a-cd23-4c02-af81-8b25969bcc99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.ShaderFiles">
+      <UniqueIdentifier>{98e330da-49ad-42ae-be60-246fd03d8bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu">
+      <UniqueIdentifier>{f764aac1-0458-47d4-b597-7b1d57fccd25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu\File">
+      <UniqueIdentifier>{c51071d2-b7da-4e7d-a596-9f132bfb9515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu\Object">
+      <UniqueIdentifier>{21cf3d1c-0584-45aa-a086-82435110f06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject">
+      <UniqueIdentifier>{71293e48-fa0f-4fe9-b6c0-e18f8ca27c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\BackGround">
+      <UniqueIdentifier>{894d621b-80b5-4eaa-900b-8d79ac83e3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Rect">
+      <UniqueIdentifier>{51b9145b-8c3a-4446-a700-f4e828a6c7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Camera">
+      <UniqueIdentifier>{8f9742d8-eb87-4fc1-af28-b39e233a4f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Terrain">
+      <UniqueIdentifier>{abb00477-b9f2-454f-b1b5-85c6ee3e23ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Monster">
+      <UniqueIdentifier>{eeb73d8f-78da-4391-909b-b789f1273522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Item">
+      <UniqueIdentifier>{9b78e0ed-1d21-4484-b52d-cebec16d523f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu\Terrain">
+      <UniqueIdentifier>{ae64d559-66d8-40af-ac87-4cbf40cd6ffb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Item\Mushroom">
+      <UniqueIdentifier>{bddd8a1f-aeec-49fa-a14e-e4fade62a726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple">
+      <UniqueIdentifier>{a5cc230b-d181-4fa6-8ada-543d4dc282b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\AlterBase">
+      <UniqueIdentifier>{62a87e2b-c381-424b-bcd7-e18fa775422d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player">
+      <UniqueIdentifier>{c0be6951-f814-494f-b449-80583bf8e1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\Body">
+      <UniqueIdentifier>{7dc166ac-8800-4bf5-8130-b6f3a1cbf63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\Weapon">
+      <UniqueIdentifier>{66d6801a-96eb-4fea-8ac8-d2814ab94afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Elemental_Boss_02">
+      <UniqueIdentifier>{cb8db1b0-895e-4450-bab2-0869faa3b37c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\Temple_Ground">
+      <UniqueIdentifier>{262599fb-3c33-416b-bc34-7a2878b2b367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_TempleBrick_04">
+      <UniqueIdentifier>{12fed8a8-4d48-4746-90d7-d070c3dee269}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\Temple_Block">
+      <UniqueIdentifier>{b1cc9150-899b-4b5a-9dd8-c9c8f77c0abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Steps_A_Mod">
+      <UniqueIdentifier>{72c8c080-d082-4af8-abdb-de2aa7e39e24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Corner_D_Mod">
+      <UniqueIdentifier>{e57b8602-10fd-46f3-b183-1052ee2def4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_01">
+      <UniqueIdentifier>{907e45d3-5f7b-44af-bfd6-444503b6e38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_02">
+      <UniqueIdentifier>{3b646723-3833-42c5-be45-41ea25f9ee30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu\Navigation">
+      <UniqueIdentifier>{245f6a66-bf26-4675-929f-d49aa91c4f97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_01_Wepon">
+      <UniqueIdentifier>{3adfe46f-7254-4eeb-9ab6-501b7bdd1dfd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Brick_v1">
+      <UniqueIdentifier>{d38e6d01-36d6-490c-bcbe-278200573639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_TempleBrick_10">
+      <UniqueIdentifier>{b83c03c5-db4f-4923-aca8-748b0afdd990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_Brick_W_B_Mod02">
+      <UniqueIdentifier>{6aa91349-2e12-4873-a7c1-73cb1b50f5ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Water">
+      <UniqueIdentifier>{c6bc5f77-5b22-41f6-9025-260b62401aa7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Sky">
+      <UniqueIdentifier>{26ab3e51-846e-4b3a-ae19-12a1922eb758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Monster\M_Guardian_Model_C">
+      <UniqueIdentifier>{78fa049c-d81a-4c06-b1bb-fd8171f1ec44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_LotusFlower_07a1">
+      <UniqueIdentifier>{f186e910-a8c8-488a-b7f5-f19dc7f276da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\ST_LiftTable_a2_sui_00">
+      <UniqueIdentifier>{8e5fe340-164b-4c6d-a92d-3f170b3ab1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_TempleBrick_01">
+      <UniqueIdentifier>{44f92035-8517-4604-a662-801bec24a703}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Brick_W_B_Mod">
+      <UniqueIdentifier>{876762ad-168d-4ce7-ac77-d01af3e37a9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Brick_W_B_Mod_10">
+      <UniqueIdentifier>{067d528d-18ef-4330-b18c-6b4324d9719c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Monster\M_Guardian_Model_D">
+      <UniqueIdentifier>{507a022e-fb8a-4741-bcdb-438a245788f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_Templelamp05">
+      <UniqueIdentifier>{082ce00b-a8ef-451f-a078-25a52b36012b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_Templelamp06">
+      <UniqueIdentifier>{05fcf22f-d4f9-4e2c-9515-da0a2671030b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_FlapTrap_03">
+      <UniqueIdentifier>{dbf84e22-011f-439d-8a14-89057a1323be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\TurnTable_Head">
+      <UniqueIdentifier>{0c5f5612-2ad4-4f65-9c9e-dbb1296facb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\TurnTable_Body">
+      <UniqueIdentifier>{c12d5850-de99-4d2d-ad87-8fb283097caa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Stone_HeavyBOX_A_Mod">
+      <UniqueIdentifier>{64cd0a65-ffb3-455b-bd4a-d94d731c1138}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\Box_Lift">
+      <UniqueIdentifier>{8a3dd1b4-ba40-482e-9682-d7d8cdf0ea5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\LeverButton">
+      <UniqueIdentifier>{2a0015a8-4608-4dd4-be25-dc8923141c12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_TempleDoor_05">
+      <UniqueIdentifier>{9780d12a-e18c-40a7-93f4-13ab490ca2f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_TempleFloor_02">
+      <UniqueIdentifier>{6cd71ef3-d72c-4813-ba97-badc5ddae806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Object_StoneBall">
+      <UniqueIdentifier>{f05813cf-1fbf-4ee8-adc4-5b8a8ca20d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_SteriousTotem_Broken_G_sui">
+      <UniqueIdentifier>{a95e5606-6939-4599-8e2b-f885c22647de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Npc">
+      <UniqueIdentifier>{d3e4606c-328b-48b3-8c9f-a27f6ffbe27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_StepBox">
+      <UniqueIdentifier>{ab3f623b-4741-435d-8d71-d866438c1c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_TotemB">
+      <UniqueIdentifier>{832204ab-b0bb-4eac-8474-fdbf276d088b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_Pillar_01">
+      <UniqueIdentifier>{3ac78c5f-2309-4fe2-931a-0bd718112192}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_WaterTemple_Parts_b">
+      <UniqueIdentifier>{f6fcc032-1c29-40ce-bb43-921e46c9486b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_RuneStatue">
+      <UniqueIdentifier>{0fa001a9-4004-469c-b665-24828456e2a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Elemental_Boss_04">
+      <UniqueIdentifier>{6b759935-f6a4-4eef-8203-fc4f7d067dac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SC_Elemental_Boss_05">
+      <UniqueIdentifier>{2995c791-70fa-4af3-ad68-713812f74a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\Wind_EleTower_09">
+      <UniqueIdentifier>{74bfbe0b-ff79-49ed-8cf4-76a0b9656d29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\Wind_Elementak_Boss">
+      <UniqueIdentifier>{9588e35a-84a4-4482-8e98-3d1867b30f48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Monster\Boss">
+      <UniqueIdentifier>{2449d1d1-acc1-4743-92dc-c75f92d2f02b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\S_HpFlower">
+      <UniqueIdentifier>{44b92e6c-05b1-40c1-904a-87c03f9567c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Temple\SM_MushroomA_L">
+      <UniqueIdentifier>{8816591b-70d6-4a1a-83e9-c8a275055241}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>97.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>97.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>97.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Level\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Level\02.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Level\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Level\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imconfig.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_impl_dx11.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_impl_win32.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_internal.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_rectpack.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_textedit.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_truetype.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImguiManager.h">
+      <Filter>99.Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>01.Level\02. GameObject\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Rect.h">
+      <Filter>01.Level\02. GameObject\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FreeCamera.h">
+      <Filter>01.Level\02. GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Terrain.h">
+      <Filter>01.Level\02. GameObject\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Imgui_File.h">
+      <Filter>99.Imgui\Menu\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster.h">
+      <Filter>01.Level\02. GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Weapon.h">
+      <Filter>01.Level\02. GameObject\Player\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Imgui_ObjectTool.h">
+      <Filter>99.Imgui\Menu\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Mushroom.h">
+      <Filter>01.Level\02. GameObject\Item\Mushroom</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\AlterBase.h">
+      <Filter>01.Level\02. GameObject\Temple\AlterBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Imgui_TerrainTool.h">
+      <Filter>99.Imgui\Menu\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>01.Level\02. GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Body_Player.h">
+      <Filter>01.Level\02. GameObject\Player\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Elemental_Boss_02.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Elemental_Boss_02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Temple_Ground.h">
+      <Filter>01.Level\02. GameObject\Temple\Temple_Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_TempleBrick_04.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_TempleBrick_04</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TempleBlcok.h">
+      <Filter>01.Level\02. GameObject\Temple\Temple_Block</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Steps_A_Mod.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Steps_A_Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Corner_D_Mod.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Corner_D_Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\M_GuardianP_POSE_A_SC_Rock_01.h">
+      <Filter>01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\M_GuardianP_POSE_A_SC_Rock_02.h">
+      <Filter>01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Imgui_Navigation.h">
+      <Filter>99.Imgui\Menu\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\M_GuardianP_POSE_A_SC_Rock_01_Weapon.h">
+      <Filter>01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_01_Wepon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Brick_v1.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Brick_v1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_TempleBrick_10.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_TempleBrick_10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_Brick_W_B_Mod2.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_Brick_W_B_Mod02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Water.h">
+      <Filter>01.Level\02. GameObject\Water</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Sky.h">
+      <Filter>01.Level\02. GameObject\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\M_Guardian_Model_C.h">
+      <Filter>01.Level\02. GameObject\Monster\M_Guardian_Model_C</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_LotusFlower_07a1.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_LotusFlower_07a1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\ST_LiftTable_a2_sui_00.h">
+      <Filter>01.Level\02. GameObject\Temple\ST_LiftTable_a2_sui_00</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_TempleBrick_01.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_TempleBrick_01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Brick_W_B_Mod.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Brick_W_B_Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Brick_W_B_Mod_10.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Brick_W_B_Mod_10</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\M_Guardian_Model_D.h">
+      <Filter>01.Level\02. GameObject\Monster\M_Guardian_Model_D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_Templelamp05.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_Templelamp05</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_Templelamp06.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_Templelamp06</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_FlapTrap_03.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_FlapTrap_03</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TurnTable_Head.h">
+      <Filter>01.Level\02. GameObject\Temple\TurnTable_Head</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\TurnTable_Body.h">
+      <Filter>01.Level\02. GameObject\Temple\TurnTable_Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Stone_HeavyBOX_A_Mod.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Stone_HeavyBOX_A_Mod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Box_Lift.h">
+      <Filter>01.Level\02. GameObject\Temple\Box_Lift</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LeverButton.h">
+      <Filter>01.Level\02. GameObject\Temple\LeverButton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_TempleDoor_05.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_TempleDoor_05</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_TempleFloor_02.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_TempleFloor_02</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Object_StoneBall.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Object_StoneBall</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_SteriousTotem_Broken_G_sui.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_SteriousTotem_Broken_G_sui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Strong_Man.h">
+      <Filter>01.Level\02. GameObject\Npc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_StepBox.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_StepBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_TotemB.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_TotemB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_Pillar_01.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_Pillar_01</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_WaterTemple_Parts_b.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_WaterTemple_Parts_b</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_RuneStatue.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_RuneStatue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Elemental_Boss_04.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Elemental_Boss_04</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SC_Elemental_Boss_05.h">
+      <Filter>01.Level\02. GameObject\Temple\SC_Elemental_Boss_05</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Wind_EleTower_09.h">
+      <Filter>01.Level\02. GameObject\Temple\Wind_EleTower_09</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Wind_Elementak_Boss.h">
+      <Filter>01.Level\02. GameObject\Temple\Wind_Elementak_Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Boss.h">
+      <Filter>01.Level\02. GameObject\Monster\Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\S_HpFlower.h">
+      <Filter>01.Level\02. GameObject\Temple\S_HpFlower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\SM_MushroomA_L.h">
+      <Filter>01.Level\02. GameObject\Temple\SM_MushroomA_L</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>97.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Level\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Level\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Level\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Level\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_demo.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_draw.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_impl_dx11.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_impl_win32.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_tables.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_widgets.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImguiManager.cpp">
+      <Filter>99.Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>98.Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>01.Level\02. GameObject\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Rect.cpp">
+      <Filter>01.Level\02. GameObject\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FreeCamera.cpp">
+      <Filter>01.Level\02. GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Terrain.cpp">
+      <Filter>01.Level\02. GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Imgui_File.cpp">
+      <Filter>99.Imgui\Menu\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster.cpp">
+      <Filter>01.Level\02. GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Weapon.cpp">
+      <Filter>01.Level\02. GameObject\Player\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Imgui_ObjectTool.cpp">
+      <Filter>99.Imgui\Menu\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Mushroom.cpp">
+      <Filter>01.Level\02. GameObject\Item\Mushroom</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\AlterBase.cpp">
+      <Filter>01.Level\02. GameObject\Temple\AlterBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Imgui_TerrainTool.cpp">
+      <Filter>99.Imgui\Menu\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>01.Level\02. GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Body_Player.cpp">
+      <Filter>01.Level\02. GameObject\Player\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Elemental_Boss_02.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Elemental_Boss_02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Temple_Ground.cpp">
+      <Filter>01.Level\02. GameObject\Temple\Temple_Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_TempleBrick_04.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_TempleBrick_04</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TempleBlcok.cpp">
+      <Filter>01.Level\02. GameObject\Temple\Temple_Block</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Steps_A_Mod.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Steps_A_Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Corner_D_Mod.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Corner_D_Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\M_GuardianP_POSE_A_SC_Rock_01.cpp">
+      <Filter>01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\M_GuardianP_POSE_A_SC_Rock_02.cpp">
+      <Filter>01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Imgui_Navigation.cpp">
+      <Filter>99.Imgui\Menu\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\M_GuardianP_POSE_A_SC_Rock_01_Weapon.cpp">
+      <Filter>01.Level\02. GameObject\Temple\M_GuardianP_POSE_A_SC_Rock_01_Wepon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Brick_v1.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Brick_v1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_TempleBrick_10.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_TempleBrick_10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_Brick_W_B_Mod2.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_Brick_W_B_Mod02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Water.cpp">
+      <Filter>01.Level\02. GameObject\Water</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Sky.cpp">
+      <Filter>01.Level\02. GameObject\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\M_Guardian_Model_C.cpp">
+      <Filter>01.Level\02. GameObject\Monster\M_Guardian_Model_C</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_LotusFlower_07a1.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_LotusFlower_07a1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\ST_LiftTable_a2_sui_00.cpp">
+      <Filter>01.Level\02. GameObject\Temple\ST_LiftTable_a2_sui_00</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_TempleBrick_01.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_TempleBrick_01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Brick_W_B_Mod.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Brick_W_B_Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Brick_W_B_Mod_10.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Brick_W_B_Mod_10</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\M_Guardian_Model_D.cpp">
+      <Filter>01.Level\02. GameObject\Monster\M_Guardian_Model_D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_Templelamp05.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_Templelamp05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_Templelamp06.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_Templelamp06</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_FlapTrap_03.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_FlapTrap_03</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TurnTable_Head.cpp">
+      <Filter>01.Level\02. GameObject\Temple\TurnTable_Head</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\TurnTable_Body.cpp">
+      <Filter>01.Level\02. GameObject\Temple\TurnTable_Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Stone_HeavyBOX_A_Mod.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Stone_HeavyBOX_A_Mod</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Box_Lift.cpp">
+      <Filter>01.Level\02. GameObject\Temple\Box_Lift</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LeverButton.cpp">
+      <Filter>01.Level\02. GameObject\Temple\LeverButton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_TempleDoor_05.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_TempleDoor_05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_TempleFloor_02.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_TempleFloor_02</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Object_StoneBall.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Object_StoneBall</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_SteriousTotem_Broken_G_sui.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_SteriousTotem_Broken_G_sui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Strong_Man.cpp">
+      <Filter>01.Level\02. GameObject\Npc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_StepBox.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_StepBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_TotemB.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_TotemB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_Pillar_01.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_Pillar_01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_WaterTemple_Parts_b.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_WaterTemple_Parts_b</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_RuneStatue.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_RuneStatue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Elemental_Boss_04.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Elemental_Boss_04</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SC_Elemental_Boss_05.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SC_Elemental_Boss_05</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Wind_EleTower_09.cpp">
+      <Filter>01.Level\02. GameObject\Temple\Wind_EleTower_09</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Wind_Elementak_Boss.cpp">
+      <Filter>01.Level\02. GameObject\Temple\Wind_Elementak_Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Boss.cpp">
+      <Filter>01.Level\02. GameObject\Monster\Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\S_HpFlower.cpp">
+      <Filter>01.Level\02. GameObject\Temple\S_HpFlower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\SM_MushroomA_L.cpp">
+      <Filter>01.Level\02. GameObject\Temple\SM_MushroomA_L</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>97.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>97.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>97.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>97.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosNorTex.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Deferred.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Water.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeSky.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
